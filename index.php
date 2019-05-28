@@ -293,13 +293,13 @@
 				</div>
 			</div>
 
+			<!-- TESTE -->
+
 			<div class="contato-form">
 				<form action="contact.class.php" method="post">
 
 					<label for="input-name">Nome</label><br>
 					<input type="text" name="nome" id="input-name">
-
-
 					<label for="input-email">E-mail</label><br>
 					<input type="email" name="email" required id="input-email">
 					<label for="input-email">Telefone</label><br>

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;;kBAIkB",
+    "sources": [
+        "../../2/sass-old/ie.scss"
+    ],
+    "names": [],
+    "file": "ie.css"
+}

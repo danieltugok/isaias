@@ -293,7 +293,7 @@
 				</div>
 			</div>
 
-			<!-- TESTE -->
+			<!-- TESTE02 -->
 
 			<div class="contato-form">
 				<form action="contact.class.php" method="post">

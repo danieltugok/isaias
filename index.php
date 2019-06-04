@@ -98,7 +98,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md">
-				<li>
+					<li>
 						<div class="icon-style"><i class="flaticon-forest"></i></div>
 						<h3>Marcenaria</h3>
 						<p></p>
@@ -107,16 +107,24 @@
 				<div class="col-md">
 					<li>
 						<div class="icon-style"><i class="flaticon-sketch"></i></div>
-						<h3>Desmontagem</h3>
+						<h3>Instalação de Portas/Janelas</h3>
 						<p></p>
 					</li>
 				</div>
+				
 			</div>
 			<div class="row">
 				<div class="col-md">
-				<li>
-						<div class="icon-style"><i class="flaticon-swiss-army-knife"></i></div>
+					<li>
+						<div class="icon-style"><i class="flaticon-ruins"></i></div>
 						<h3>Reparos e Consertos de Móveis</h3>
+						<p></p>
+					</li>
+				</div>
+				<div class="col-md">
+					<li>
+						<div class="icon-style"><i class="flaticon-swiss-army-knife"></i></div>
+						<h3>Desmontagem</h3>
 						<p></p>
 					</li>
 				</div>
@@ -126,8 +134,8 @@
 		<ul class="serv row justify-content-around">
 			<li class="col-md-3">
 				<div class="destak-serv"> <div class="iconflat flaticon-hammer"></div> </div>
-				<h3 class="tit-serv">+10 anos de experiência</h3>
-				<p class="txt-serv">Atuo há mais de 10 anos com montagem de móveis.</p>
+				<h3 class="tit-serv">+25 anos de experiência</h3>
+				<p class="txt-serv">Atuo há mais de 25 anos com montagem de móveis.</p>
 			</li>
 			<li class="col-md-3">
 				<div class="destak-serv"><div class="iconflat flaticon-wrench"></div></div>
@@ -154,17 +162,17 @@
 
 			<div class="zona col-sm">
 				<div class="icon-style-areas">
-				<i class="flaticon-island"></i>
-				</div>
-				<h4>ZONA SUL</h4>
-			</div>
-
-			<div class="zona col-sm">
-				<div class="icon-style-areas">
 				<i class="flaticon-sunset"></i>
 				</div>
 				<h4>BARRA DA TIJUCA</h4>
-			</div>			
+			</div>	
+
+			<div class="zona col-sm">
+				<div class="icon-style-areas">
+				<i class="flaticon-island"></i>
+				</div>
+				<h4>ZONA SUL</h4>
+			</div>					
 
 			<div class="zona col-sm">
 				<div class="icon-style-areas">
@@ -278,8 +286,10 @@
 		<div class="contato">
 			<div class="dados">
 				<ul>
-					<li><a href="tel:+5521981873374"><i class="fas fa-phone"></i>+55 (21) 98187.3374</li></a>
-					<li><a href="mailto:danieltugok@gmail.com"><i class="fas fa-envelope"></i>danieltugok@gmail.com</li></a>
+					<li><a href="tel:+5521986283007"><i class="fas fa-phone"></i>+55 (21) 98628.3007</li></a>
+					<li><a href="tel:+5521971617731"><i class="fas fa-phone"></i>+55 (21) 97161.7731</li></a>
+					<li><a href="tel:+5521985645148"><i class="fas fa-phone"></i>+55 (21) 98564.5148</li></a>
+					<li><a href="mailto:isaiasmarceneiro52@gmail.com"><i class="fas fa-envelope"></i>isaiasmarceneiro52@gmail.com</li></a>
 				</ul>
 
 				<div class="msg-email <?php if (isset($_GET['msg']) && !empty($_GET['msg'])) { echo 'displayblock'; }  ?>">
@@ -293,21 +303,20 @@
 				</div>
 			</div>
 
-			<!-- TESTE02 -->
 
 			<div class="contato-form">
-				<form action="contact.class.php" method="post">
+				<form action="contact.class.php" method="post" autocomplete="nope">
 
 					<label for="input-name">Nome</label><br>
-					<input type="text" name="nome" id="input-name">
+					<input type="text" name="nome" id="input-name" autocomplete="nope">
 					<label for="input-email">E-mail</label><br>
-					<input type="email" name="email" required id="input-email">
+					<input type="email" name="email" required id="input-email" autocomplete="nope">
 					<label for="input-email">Telefone</label><br>
-					<input type="text" name="telefone" required id="input-telefone">
+					<input type="text" name="telefone" required id="input-telefone" autocomplete="nope">
 					<label for="input-assunto">Assunto</label><br>
-					<input type="text" name="assunto"  id="input-assunto">
+					<input type="text" name="assunto"  id="input-assunto" autocomplete="nope">
 					<label for="input-msg">Mensagem</label><br>
-					<textarea name="msg"  id="input-msg" cols="30" rows="10"></textarea>
+					<textarea name="msg"  id="input-msg" cols="30" rows="10" autocomplete="nope"></textarea>
 
 					<input type="submit" value="Enviar" name="enviar">
 

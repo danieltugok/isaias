@@ -67,6 +67,12 @@
 /* ----------------------------------------------------------- */
 $(document).ready(function(){
 
+
+    try{
+        
+
+    }catch(e){}
+
     // MSG ENVIO EMAIL
     try{
         $(".msg-email").append("<a href='' class='close'>X</a>");

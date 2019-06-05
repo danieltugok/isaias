@@ -213,26 +213,6 @@
 	<a href="#contato" class="btn"><?php $lang->get('LetsGo') ?></a>
 </div> -->
 
-<!-- <section  id="portfolio" class="container-fluid">
-
-
-	<article>
-
-	
-	<div class="container">
-		<h2><?php $lang->get('PORTFOLIO'); ?> </h2>
-
-		
-	
-	
-	</div>
-
-
-
-		
-		
-</section> -->
-
 
 
 
@@ -286,9 +266,9 @@
 		<div class="contato">
 			<div class="dados">
 				<ul>
-					<li><a href="tel:+5521986283007"><i class="fas fa-phone"></i>+55 (21) 98628.3007</li></a>
-					<li><a href="tel:+5521971617731"><i class="fas fa-phone"></i>+55 (21) 97161.7731</li></a>
-					<li><a href="tel:+5521985645148"><i class="fas fa-phone"></i>+55 (21) 98564.5148</li></a>
+					<li><a href="tel:+5521986283007"><i class="fas fa-phone"></i>(21) 98628.3007</li></a>
+					<li><a href="tel:+5521971617731"><i class="fas fa-phone"></i>(21) 97161.7731</li></a>
+					<li><a href="tel:+5521985645148"><i class="fas fa-phone"></i>(21) 98564.5148 <br> (Após as 18h)</li></a>
 					<li><a href="mailto:isaiasmarceneiro52@gmail.com"><i class="fas fa-envelope"></i>isaiasmarceneiro52@gmail.com</li></a>
 				</ul>
 
